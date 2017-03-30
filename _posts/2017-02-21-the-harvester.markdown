@@ -18,7 +18,7 @@ The active discovery involves DNS brute force, DNS reverse lookup and DNS TDL ex
 
 The parameters available are:
 {% highlight %}
--d <domain> to define the target
+-d to define the target
 -b: defines the data source like baidu, bing, bingapi, dogpile,google, googleCSE, googleplus, google-profiles, linkedin, pgp, twitter, vhost, yahoo or all
 -s: defines a start for the result
 -v: Verify host name via dns resolution and search for virtual hosts
@@ -31,6 +31,8 @@ The parameters available are:
     google 100 to 100, and pgp doesn't use this option)
 -h: use SHODAN database to query discovered hosts
 {% endhighlight %}
+
+That's it!
 
 
 
